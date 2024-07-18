@@ -1,0 +1,33 @@
+.github-popularrepos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.github-repos-heading {
+  font-family: 'Lobster';
+  font-size: 52px;
+  font-weight: 600;
+}
+.unorder-list-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 0px;
+}
+.unorder-list-container-items {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .unorder-list-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 0px;
+  }
+}

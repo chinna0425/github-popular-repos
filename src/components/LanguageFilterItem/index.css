@@ -1,0 +1,57 @@
+.lanuage-filteritem-style {
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.button-style {
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button-style1 {
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid #0284c7;
+  color: #0284c7;
+  border-radius: 18px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+  .button-style {
+    background-color: transparent;
+    border-width: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .button-style1 {
+    background-color: transparent;
+    border-width: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #0284c7;
+    color: #0284c7;
+    border-radius: 18px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
